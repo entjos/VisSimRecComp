@@ -10,7 +10,7 @@ calcKME <- function(data){
                            time2  = stop, 
                            event  = status,
                            type   = "counting") ~ x,
-                      data = subset(data, re == 1))
+                      data = subset(data, re == 0))
   
   surv <- data.table::data.table(t    = risksets$time,
                                  surv = risksets$surv,
