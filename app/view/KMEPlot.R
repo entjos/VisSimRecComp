@@ -31,7 +31,8 @@ server <- function(id, data){
         scale_y_continuous(limits = c(0, 1)) +
         scale_colour_manual(values = wes_palette("GrandBudapest1", 2)) +
         labs(x = "Time",
-             y = "KME Estimate of S(t)") +
+             y = "KME Estimate of S(t)",
+             title = "Kaplan-Meier Estimate") +
         theme_bw()
       
       ggplotly(gptl)

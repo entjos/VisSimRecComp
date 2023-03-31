@@ -34,7 +34,8 @@ server <- function(id){
         scale_y_continuous(limits = c(0, 1)) +
         scale_colour_manual(values = wes_palette("GrandBudapest1", 2)) +
         labs(x = "Time",
-             y = "S(t)") +
+             y = "S(t)",
+             title = "Exact Survival Function") +
         theme_bw()
       
       ggplotly(gptl)
