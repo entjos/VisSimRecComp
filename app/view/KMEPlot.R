@@ -28,6 +28,7 @@ server <- function(id, data){
                          group = x)) +
         geom_line() +
         scale_x_continuous(limits = c(input$xlower, input$xupper)) +
+        scale_y_continuous(limits = c(0, 1)) +
         scale_colour_manual(values = wes_palette("GrandBudapest1", 2)) +
         labs(x = "Time",
              y = "KME Estimate of S(t)") +
