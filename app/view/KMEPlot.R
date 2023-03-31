@@ -30,7 +30,8 @@ server <- function(id, data){
         scale_x_continuous(limits = c(input$xlower, input$xupper)) +
         scale_colour_manual(values = wes_palette("GrandBudapest1", 2)) +
         labs(x = "Time",
-             y = "KME Estimate of S(t)")
+             y = "KME Estimate of S(t)") +
+        theme_bw()
       
       ggplotly(gptl)
       
