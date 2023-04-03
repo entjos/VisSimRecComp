@@ -5,7 +5,7 @@ account: entjos
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8698923
-bundleId: 7019423
+bundleId: 7042605
 url: https://entjos.shinyapps.io/vissimreccomp/
-when: 1680023015.29655
-lastSyncTime: 1680023015.29655
+when: 1680525582.12635
+lastSyncTime: 1680525582.12635
